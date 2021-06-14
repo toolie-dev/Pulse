@@ -1,6 +1,6 @@
 .consultation {
     min-height: 680px;
-    background: url("../images/shoe_bg.png");
+    background: url("../images/shoe_bg.png") center (center/cover) no-repeat;
     padding-top: 100px;
     padding-bottom: 100px;
     &__descr {

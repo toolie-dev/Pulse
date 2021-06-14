@@ -113,6 +113,29 @@
             }
         }
     }
+    .consultation {
+        .container {
+            .title_left {
+                font-size: 22px;
+                text-align: center;
+                line-height: 40px;
+            }
+            .consultation__descr {
+                font-size: 18px;
+                text-align: center;
+            }
+            .feed-form {
+                margin: 0 auto;
+                margin-top: 36px;
+            }
+            .button_submit {
+                width: 250px;
+                height: 45px;
+                font-size: 15px;
+                margin: 0 auto;
+            }
+        }
+    }
 }
 @media (max-width: 575px) {
     .container {
@@ -178,6 +201,30 @@
                         font-size: 13px;
                     }
                 }
+            }
+        }
+    }
+    .consultation {
+        .container {
+            .title_left {
+                font-size: 18px;
+                text-align: center;
+                line-height: 30px;
+            }
+            .consultation__descr {
+                font-size: 16px;
+                text-align: center;
+                margin-top: 25px;
+            }
+            .feed-form {
+                margin: 0 auto;
+                margin-top: 36px;
+            }
+            .button_submit {
+                width: 250px;
+                height: 45px;
+                font-size: 15px;
+                margin: 0 auto;
             }
         }
     }
