@@ -1,0 +1,432 @@
+@media (max-width: 991px) {
+    .container {
+        .header {
+            justify-content: space-evenly;
+            &__contacts {
+                .header__phone {
+                    font-size: 16px;
+                }
+            }
+        }
+    } 
+    .promo {
+        .container{
+            .promo__wrapper {
+                align-items: center;
+            }
+            .promo__header {
+                font-size: 36px;
+                line-height: 36px;
+            }
+            .promo__subheader {
+                font-size: 20px;
+                line-height: 20px;
+            }
+        }
+    }
+    .advantages {
+        .container {
+            .title {
+                font-size: 25px;
+            }
+            .advantages__wrapper {
+                .advantages__item {
+                    max-width: 205px;
+                    .advantages__subtitle {
+                        font-size: 16px;
+                    }
+                    .advantages__descr {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .carousel {
+        .container {
+            .carousel__inner {
+               max-width: 80%;
+            }
+        }
+    }
+    .catalog {
+        .container {
+            .catalog__content_active {
+                justify-content: space-evenly;
+            }
+        }
+    }  
+    .reviews {
+        &__image {
+            margin-right: 15px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 465px;
+            height: 245px;
+            left: 100%;
+            transform: translateX(-100%);
+        }
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        .header {
+            justify-content: space-between;
+            &__logo {
+                width: 190px;
+            }
+            &__official {
+                font-size: 11px;
+                span {
+                    font-size: 14px;
+                }
+            }
+            &__contacts {
+                .header__phone {
+                    font-size: 13px;
+                }
+                .button {
+                    width: 126px;
+                    height: 27px;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+    .promo {
+        max-height: 592px;
+        .container {
+            .promo__wrapper {
+                margin-top: 55px;
+                .promo__header {
+                    font-size: 30px;
+                    line-height: 30px;
+                }
+                .promo__subheader {
+                    font-size: 17px;
+                    line-height: 17px;
+                }
+                .button_main {
+                    width: 250px;
+                    height: 45px;
+                    font-size: 15px;
+                }
+                .promo__link {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .advantages {
+        .container {
+            .title {
+                font-size: 22px;
+            }
+            .advantages__wrapper {
+                .advantages__item {
+                    max-width: 180px;
+                    img {
+                        width: 55px;
+                    }
+                    .advantages__subtitle {
+                        font-size: 14px;
+                    }
+                    .advantages__descr {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .consultation {
+        .container {
+            .title_left {
+                font-size: 22px;
+                text-align: center;
+                line-height: 40px;
+            }
+            .consultation__descr {
+                font-size: 18px;
+                text-align: center;
+            }
+            .feed-form {
+                margin: 0 auto;
+                margin-top: 36px;
+            }
+            .button_submit {
+                width: 250px;
+                height: 45px;
+                font-size: 15px;
+                margin: 0 auto;
+            }
+        }
+    }
+    .catalog {
+        .container {
+            .title {
+                font-size: 22px;
+            }
+            .catalog__tabs {
+                .catalog__tab {
+                    width: 165px;
+                    font-size: 15px;
+                    height: 41px;
+                    line-height: 41px;
+                }
+            }
+            .catalog__content {
+                .catalog-item {
+                    width: 280px;
+                    margin-bottom: 15px;
+                }
+            }
+            .catalog__content_active {
+                justify-content: space-evenly;
+            }
+        }
+    }
+    .reviews {
+        .container {
+            .title {
+                font-size: 22px;
+            }
+        }
+    }
+    .footer {
+        &__info {
+            width: 270px;
+            height: 175px;
+            padding-bottom: 0;
+            padding-top: 30px;
+            font-size: 15px;
+        }
+        &__social {
+            max-width: 190px;
+            margin-top: 25px;
+            &-item {
+                width: 40px;
+                height: 40px;
+                font-size: 20px;
+            }
+        }
+    }
+    .modal {
+        width: 330px;
+        padding: 10px;
+        min-height: 335px;
+        &__subtitle {
+            font-size: 16px;
+            text-align: center;
+        }
+        &__descr {
+            font-size: 14px;
+            text-align: center;
+        }
+        .feed-form_modal {
+            width: 250px;
+            margin: 0 auto;
+            input {
+                height: 55px;
+                width: 100%;
+            }
+            .button_submit {
+                height: 50px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        .header {
+            &__logo {
+                width: 175px;
+            }
+            &__official {
+                display: none;
+            }
+            &__contacts {
+                .button {
+                    width: 120px;
+                }
+            }
+        }
+    }
+    .promo {
+        padding: 21px 0 0 0;
+        min-height: 575px;
+        .container {
+            .promo__wrapper {
+                .promo__header {
+                    font-size: 25px;
+                }
+                .promo__subheader {
+                    font-size: 14px;
+                    line-height: 14px;
+                }
+                .promo__icons {
+                    width: 300px;
+                    .promo__icon {
+                        font-size: 12px;
+                    }
+                }
+                .button_main {
+                    width: 250px;
+                    height: 45px;
+                    font-size: 15px;
+                }
+                .promo__link {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .advantages {
+        .container {
+            .advantages__wrapper {
+                margin-top: 40px;
+                flex-direction: column;
+                .advantages__item {
+                    max-width: 200px;
+                    margin: 0 auto;
+                    img {
+                        width: 55px;
+                    }
+                    .advantages__subtitle {
+                        font-size: 14px;
+                        margin-top: 12px;
+                    }
+                    .advantages__descr {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .consultation {
+        .container {
+            .title_left {
+                font-size: 18px;
+                text-align: center;
+                line-height: 30px;
+            }
+            .consultation__descr {
+                font-size: 16px;
+                text-align: center;
+                margin-top: 25px;
+            }
+            .feed-form {
+                margin: 0 auto;
+                margin-top: 36px;
+            }
+            .button_submit {
+                width: 250px;
+                height: 45px;
+                font-size: 15px;
+                margin: 0 auto;
+            }
+        }
+    }
+    .catalog {
+        padding-bottom: 30px;
+        .container {
+            .title {
+                font-size: 18px;
+            }
+            .catalog__tabs {
+                margin-top: 35px;
+                .catalog__tab {
+                    width: 100px;
+                    font-size: 11px;
+                    height: 41px;
+                    line-height: 41px;
+                    margin: 0;
+                }
+            }
+            .catalog__content_active {
+                justify-content: space-evenly;
+            }
+        }
+    }
+    .reviews {
+        .container {
+            .reviews__wrapper {
+                .reviews__item {
+                    margin-top: 60px;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    width: 80%;
+                    margin: 0 auto;
+                    margin-bottom: 15px;
+                    .reviews__image {
+                        width: 150px;
+                    }
+                    .reviews__review {
+                        .reviews__title {
+                            margin-top: 20px;
+                        }
+                        .reviews__subtitle {
+                            font-size: 13px;                      
+                        }
+                        .reviews__text {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        &__info {
+            width: 227px;
+            height: 105px;
+            padding-top: 10px;
+            font-size: 13px;
+            top: 100%;
+            left: 0;
+            transform: translateY(-100%);
+        }
+        &__social {
+            max-width: 170px;
+            margin-top: 9px;
+            &-item {
+                width: 35px;
+                height: 35px;
+                font-size: 16px;
+            }
+        }
+        &__address {
+            margin-bottom: 0;
+        }
+        &__tel {
+            margin-top: 0;
+        }
+    }
+    .modal {
+        width: 270px;
+        padding: 10px;
+        min-height: 335px;
+        &__close {
+            right: -10%;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        .feed-form_modal {
+            width: 225px;
+            input {
+                padding: 0 8px;
+            }
+            .button_submit {
+                height: 40px;
+                font-size: 14px;
+            }
+        }
+    }
+}
