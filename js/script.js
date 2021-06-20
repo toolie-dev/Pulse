@@ -58,6 +58,8 @@ $(document).ready(function(){
 
   toggleSlide('.catalog-item__link');
   toggleSlide('.catalog-item__back');
+  
+  $('input[name=phone]').mask("+7 (999) 999-99-99");
 
     //Modal windows
 
